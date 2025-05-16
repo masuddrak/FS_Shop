@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import StoreProvider from "./StoreProvider";
+import "../globals.css";
+import StoreProvider from "../StoreProvider";
 import { Header } from "@/components/sheard/Header";
 import Footer from "@/components/sheard/Footer";
 
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
       >
         <StoreProvider>
           <Header />

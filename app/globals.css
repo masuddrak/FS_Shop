@@ -4,18 +4,18 @@
 
 @layer base {
   body {
-    @apply bg-[#23272F] text-white;
+    @apply bg-[#fff] ;
   }
 
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl font-extrabold;
   }
 
   h2 {
-    @apply text-3xl font-semibold;
+    @apply text-3xl font-bold;
   }
   h3 {
-    @apply text-xl font-medium;
+    @apply text-xl font-semibold;
   }
 
   p {
