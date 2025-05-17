@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-[#fff] ;
+    @apply bg-[#F9FCFD] text-[#4D4F51];
   }
 
   h1 {
-    @apply text-4xl font-extrabold;
+    @apply text-2xl md:text-4xl lg:text-5xl/[60px] font-extrabold ;
   }
 
   h2 {
@@ -19,16 +19,29 @@
   }
 
   p {
-    @apply text-base font-normal;
+    @apply text-base md:text-xl font-normal;
   }
 }
 
 /* color */
 .primary_bg {
-  background-color: #58C4DC;
+  background-color: #145B9F;
 }
+
 .primary_tx {
-  background-color: #58C4DC;
+  color: #145B9F;
+}
+.secondary_bg {
+  background-color: #092a4a;
+}
+.secondary_tx {
+  background-color: #092a4a;
+}
+.thard_bg {
+  background-color: #e2ecf7;
+}
+.thard_tx {
+  background-color: #e2ecf7;
 }
  
 /* body{

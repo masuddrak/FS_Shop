@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <StoreProvider>
           <Header />
-          {children}
+          <div className="mt-[56px] px-5 md:px-5 lg:px-0 manage_layout_margin">{children}</div>
           <Footer/>
         </StoreProvider>
       </body>

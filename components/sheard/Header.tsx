@@ -3,7 +3,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <div className="primary_bg sticky top-0 z-50 shadow-md">
+    <div className="bg-white fixed top-0 z-50 shadow-md w-full">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <h2 className="">FS</h2>
